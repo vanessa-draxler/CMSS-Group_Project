@@ -1,4 +1,4 @@
-Inside the `project/code/` directory, create a virtual environment named `.venv`:
+Inside the directory, create a virtual environment named `.venv`:
 
 ```bash
 python -m venv .venv
@@ -29,18 +29,18 @@ python -m pip install -r requirements.txt
 
 ## Run the simulation
 
-Run the script from `code/` directory:
+Run the script:
 
 ```bash
 python school_abm.py
 ```
 
-By default, the script runs the configured number of repeated simulations and writes outputs into the `code/` directory:
+By default, the script runs the configured number of repeated simulations and writes outputs into the directory:
 
-- `code/results.csv`: per-run time-series counts for each misinformation state.
-- `code/results_summary.csv`: aggregated summary statistics across runs.
-- `code/results.png`: line plot of state counts over time.
-- `code/network_spread.png`: network snapshot plot showing misinformation spread over time.
+- `results.csv`: per-run time-series counts for each misinformation state.
+- `results_summary.csv`: aggregated summary statistics across runs.
+- `results.png`: line plot of state counts over time.
+- `network_spread.png`: network snapshot plot showing misinformation spread over time.
 
 ## Useful command-line options
 
